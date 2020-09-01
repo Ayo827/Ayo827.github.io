@@ -1,0 +1,33 @@
+@media  screen and (min-width: 1201px){
+    
+}
+/*big tablet to 12oopx(widths smaller than the 1140px row)*/
+@media  screen and (max-width: 1200px){
+    .text p{
+        font-size: 19px;
+        font-weight: 70px;
+    }
+     .nav-bar{
+        width:1185px;
+    }
+    
+    .logo{
+         width: 40px;
+          height: 25px; 
+        }
+    .nav-link a{
+        font-size: 10px;
+    }
+}
+/*small tablet to big tablet: 768 to 1023px*/
+@media only screen and (max-width: 1023px){
+
+}
+/*small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px){
+    
+}
+/*small phones: from 0 to 430px*/
+@media only screen and (max-width: 480px){
+    
+}
